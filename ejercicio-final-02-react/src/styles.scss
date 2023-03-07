@@ -1,0 +1,12 @@
+body{
+   background: rgba(127, 233, 111, 0.861);
+
+}
+
+$myColor: blue;
+
+
+.divContainer{
+  display: grid;
+  grid-template-columns: 80% 20%;
+}

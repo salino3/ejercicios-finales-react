@@ -1,0 +1,23 @@
+$textColor1: orange;
+$textColor2: rgb(0, 166, 255);
+
+
+.div_shop {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
+}
+
+
+
+.div_shop div{
+    max-width: 10em;
+    padding: 1em;
+    color: $textColor1;
+
+    span {
+      color: $textColor2
+    }
+
+ 
+}
+

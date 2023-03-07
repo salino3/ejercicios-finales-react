@@ -1,0 +1,21 @@
+ aside{
+    background: rgb(196, 20, 20);
+    min-height: 80vh;
+
+    .btnCart{
+                margin: 0.3em;
+                background-color: red;
+    }
+
+    .linkForm{
+    display: flex;
+    border: solid green 1px;
+    background-color: rgb(255, 174, 24);
+    border-radius: 5px;
+    }
+
+    *{
+        padding: 0.1em;
+        margin: 0.1em;
+    }
+ }

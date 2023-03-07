@@ -1,0 +1,22 @@
+.divOrders{
+    margin: 0 auto;
+    margin-top: 2em;
+
+    h3{
+        color: orange;
+    }
+    .divListOrders{
+        background: rgb(33, 32, 32);
+        border: solid 2px yellowgreen;
+        color:deeppink ;
+        margin: 1em;
+        padding: 1em;
+        border-radius: 10px;
+
+
+        & span {
+            color: blue;
+
+        }
+    }
+}

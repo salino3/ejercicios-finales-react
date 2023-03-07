@@ -1,0 +1,90 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "picUrl": "assets/dresses/ropa-1.jpg",
+      "title": "Sweater",
+      "selected": true,
+      "price": 80
+    },
+    {
+      "selected": false,
+      "id": "2",
+      "picUrl": "assets/dresses/ropa-2.jpg",
+      "title": "Shoes",
+      "price": 110
+    },
+    {
+      "selected": true,
+      "id": "3",
+      "picUrl": "assets/dresses/shoes2.jpg",
+      "title": "shoes black",
+      "price": 200
+    },
+    {
+      "id": "4",
+      "picUrl": "assets/dresses/ropa4.jpg",
+      "title": "Spring set",
+      "selected": false,
+      "price": 80
+    },
+    {
+      "selected": false,
+      "id": "5",
+      "picUrl": "assets/dresses/ropa5.jpg",
+      "title": "jacket",
+      "price": 40
+    },
+    {
+      "selected": false,
+      "id": "6",
+      "picUrl": "assets/dresses/ropa6.jpg",
+      "title": "T-shirt-grey",
+      "price": 30
+    },
+    {
+      "id": "7",
+      "picUrl": "assets/dresses/ropa7.jpg",
+      "title": "t-shirt sm",
+      "selected": false,
+      "price": 50
+    },
+    {
+      "selected": false,
+      "id": "8",
+      "picUrl": "assets/dresses/ropa8.jpg",
+      "title": "Set T-shirt",
+      "price": 40
+    },
+    {
+      "selected": false,
+      "id": "9",
+      "picUrl": "assets/dresses/ropa9.jpg",
+      "title": "Set T-shirt-colorful",
+      "price": 90
+    },
+    {
+      "selected": false,
+      "id": "10",
+      "picUrl": "assets/dresses/ropa10.jpg",
+      "title": "T-shirt-small",
+      "price": 40
+    }
+  ],
+  "orders": [
+    {
+      "id": "10",
+      "supplier": "Mark",
+      "state": true,
+      "date": "2023-03-23",
+      "total": 160
+    },
+    {
+      "id": "3",
+      "supplier": "Joe",
+      "state": true,
+      "date": "2023-03-24",
+      "total": 280
+    }
+  ]
+}

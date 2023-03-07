@@ -1,0 +1,52 @@
+.detail_container{
+    background: aquamarine;
+    height: 170vh;
+    display: grid;
+    grid-template-rows: 40% minmax(40%, auto);
+    justify-items: center;  
+    padding: 2em;
+    color: darkblue;
+     padding-bottom: 15em;
+
+
+
+}
+
+img {
+    border-radius: 10px;
+    
+}
+
+.divImg{
+    border: solid 2px;
+    padding: 1em 5em;
+    display: grid;
+    grid-template-rows: 8% auto;
+
+}
+
+.Linkdetail{
+ margin: 0 auto;
+}
+
+.divP {
+ color: darkred;
+ background-color: aqua;
+ padding: 1em 1em 0em;
+ margin-bottom: 1em;
+ 
+}
+
+.divP span {
+    color: green;
+}
+
+.divP  div{
+    color: darkblue;
+  display: grid;
+  justify-content: center;
+  margin-top: 1em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+}
+

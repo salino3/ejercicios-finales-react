@@ -1,0 +1,31 @@
+.myHeader{
+    position: sticky;
+    top: 0;
+    display: flex;
+    width: 100%;
+    border: solid 2px blue;
+}
+
+  nav{
+  display: grid;
+  grid-template-rows: auto auto;
+ }  
+
+ .divNavComponents{
+    display: grid;
+  grid-template-columns: 1fr 1fr; 
+  margin: 0em 3em 0em;
+  gap: 1em;
+
+  & .UlNav{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 1em;
+    list-style: none;
+    border: solid white 2px;
+    padding: 1em;
+    max-height: 4em;
+    
+  }
+ }
+
