@@ -65,8 +65,6 @@ export const MyProvider: React.FC<Props> = ({ children }) => {
         console.error(error);
       }
     },
-    // para asegurarse de que siempre estamos utilizando la versión
-    // actualizada de 'state'
     [state, dispatch, loadData]
   );
 
